@@ -27,19 +27,63 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/SMOTE%20Oversampling.PNG)
 
+* Balanced Accuracy Score: 66.29%
+* Precision Score:<br>
+	* High Risk: 1%  
+	 * Low Risk: 100%
+* Recall Score"<br>
+	* High Risk: 63%
+	 * Low Risk: 69%
+
 ### Undersampling using ClusterCentroids
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Undersampling%20ClusterCentroids.PNG)
+
+* Balanced Accuracy Score: 54.42%
+* Precision Score:<br>
+	* High Risk: 1%  
+	 * Low Risk: 100%
+* Recall Score"<br>
+	* High Risk: 69%
+	 * Low Risk: 40%
+
+### Combiniation Over and Under Sampling - SMOTEENN
+
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Combination%20Sampling.PNG)
+
+* Balanced Accuracy Score: 54.42%
+* Precision Score:<br>
+	* High Risk: 1%  
+	 * Low Risk: 100%
+* Recall Score"<br>
+	* High Risk: 72%
+	 * Low Risk: 57%
+
 
 ### Balance Random Forests
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Balance%20Random%20Forest.PNG)
 
+* Balanced Accuracy Score: 78.85%
+* Precision Score:<br>
+	* High Risk: 3%  
+	 * Low Risk: 100%
+* Recall Score"<br>
+	* High Risk: 70%
+	 * Low Risk: 87%
+
 ### Easy Ensemble AdaBoost
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Easy%20Ensemble%20AdaBoost.PNG)
 
-### Combiniation Sampling
+* Balanced Accuracy Score: 93.17%
+* Precision Score:<br>
+	* High Risk: 9%  
+	 * Low Risk: 100%
+* Recall Score"<br>
+	* High Risk: 92%
+	 * Low Risk: 94%
 
-![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Combination%20Sampling.PNG)
+## Summary
+
 
