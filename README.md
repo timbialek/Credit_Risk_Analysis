@@ -15,12 +15,12 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Naive%20Random%20Sampling.PNG)
 
 * Balanced Accuracy Score: 64.39%
-* Precision Score<br>
+* Precision Score:<br>
 	* High Risk: 1%  
 	 * Low Risk: 100%
-* Recall Score<br>
-	High Risk: 69%
-	 Low Risk: 59%
+* Recall Score"<br>
+	* High Risk: 69%
+	 * Low Risk: 59%
 
 
 ### Oversampling using SMOTE
