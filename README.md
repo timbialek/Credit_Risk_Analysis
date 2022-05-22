@@ -90,7 +90,7 @@ The second portion of the analysis wiht use two different Ensemble Classifiers t
 
 ## Summary
 
-In comparing the different learning models the ensemble methods produced the highest level of accuracy with the AdaBoost model being the highest with 93.17%.  However, all the models have a low precision % meaning that there are more false negatives than false positives.  The bank is likely to miss out one a higher number of good opportunities than they are to accept bad opportunities.  For that reason, I wouldn't recommend any of these models in the current scenario.
+In comparing the different learning models the ensemble methods produced the highest level of accuracy with the AdaBoost model being the highest with 93.17%.  However, all the models have a low precision % meaning that there are more false negatives than false positives.  The bank is likely to miss out on a higher number of good opportunities than they are to accept bad opportunities.  For that reason, I wouldn't recommend any of these models in the current scenario.
 
 
 
