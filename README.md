@@ -12,10 +12,10 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 
 ### Naive Random oversampling model
 
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/PySpark%20File%20Import%20from%20S3%20bucket.PNG)
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Naive%20Random%20Sampling.PNG)
 
 * Balanced Accuracy Score: 64.39%
-* Precision Score
+* Precision Score<br>
 	High Risk: 1%
 	 Low Risk: 100%
 * Recall Score
@@ -25,24 +25,21 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 
 ### Oversampling using SMOTE
 
-Undersampling using ClusterCentroids
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/customers_table%20in%20pgAdmin.PNG)
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/SMOTE%20Oversampling.PNG)
 
-products_table
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/product_table%20in%20pgAdmin.PNG)
+### Undersampling using ClusterCentroids
 
-review_id_table
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/review_id%20table%20in%20pgAdmin.PNG)
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Undersampling%20ClusterCentroids.PNG)
 
-vine_table
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/vine_table%20in%20pgAdmin.PNG)
+### Balance Random Forests
 
-## Deliverable 2 Determine Bias of Vine Reviews
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Balance%20Random%20Forest.PNG)
 
-Determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
+### Easy Ensemble AdaBoost
 
-Paid Reviews Metrics
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/paid_reviews_metrics.PNG)
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Easy%20Ensemble%20AdaBoost.PNG)
 
-Unpaid Reviews Metrics
-![](https://github.com/timbialek/Amazon_Vine_Analysis/blob/main/Resources/unpaid_reviews_metrics.PNG)
+### Combiniation Sampling
+
+![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Combination%20Sampling.PNG)
+
