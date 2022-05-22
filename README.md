@@ -16,9 +16,9 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 
 * Balanced Accuracy Score: 64.39%
 * Precision Score<br>
-	High Risk: 1%
-	 Low Risk: 100%
-* Recall Score
+	*High Risk: 1%  
+	 *Low Risk: 100%
+* Recall Score<br>
 	High Risk: 69%
 	 Low Risk: 59%
 
