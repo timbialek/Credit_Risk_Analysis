@@ -10,7 +10,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Use Resampling Models to Predict Credit Risk
 The first portion of the analysis with focus on the imbalanced-learn and scikit-learn libraries to use evaluate three machine learning models by using resampling to determine which is better at predicting credit risk. 
 
-### Naive Random oversampling model
+#### Naive Random oversampling model
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Naive%20Random%20Sampling.PNG)
 
@@ -23,7 +23,7 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 	 * Low Risk: 59%
 
 
-### Oversampling using SMOTE
+#### Oversampling using SMOTE
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/SMOTE%20Oversampling.PNG)
 
@@ -35,7 +35,7 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 	* High Risk: 63%
 	 * Low Risk: 69%
 
-### Undersampling using ClusterCentroids
+#### Undersampling using ClusterCentroids
 
 ![](https://github.com/timbialek/Credit_Risk_Analysis/blob/main/Resources/Undersampling%20ClusterCentroids.PNG)
 
@@ -58,6 +58,10 @@ The first portion of the analysis with focus on the imbalanced-learn and scikit-
 * Recall Score"<br>
 	* High Risk: 72%
 	 * Low Risk: 57%
+
+## Use Ensemble Classifiers to Predict Credit Risk
+
+The second portion of the analysis wiht use two different Ensemble Classifiers to predict credit risk and evaluate models
 
 
 ### Balance Random Forests
